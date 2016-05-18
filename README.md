@@ -1,4 +1,4 @@
-# UJ4.0 CM
+# Starter ReactJS CM Repository
 
 ## How to install
 
