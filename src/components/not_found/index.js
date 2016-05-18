@@ -21,6 +21,6 @@ export default class NotFound extends Component {
 	}
 }
 
-App.contextTypes = {
+NotFound.contextTypes = {
     router: React.PropTypes.object.isRequired
 }

@@ -15,12 +15,12 @@ export default class HelloWorld extends Component {
 	render() {
 		return (
 			<div>
-				Hello World with ReactJS
+				<h1>Hello World with ReactJS</h1>
 			</div>
 		);
 	}
 }
 
-App.contextTypes = {
+HelloWorld.contextTypes = {
     router: React.PropTypes.object.isRequired
 }

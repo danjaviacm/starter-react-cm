@@ -26,7 +26,6 @@ export default class Root extends Component {
 	render() {
 		return (
 			<Router history={appHistory}>
-				<Redirect from="/" to="/consultar-placa" />
 				<Route path='/' component={ App }>
 					<IndexRoute component={ HelloWorld } />
 					<Route path='*' component={ NotFound } />

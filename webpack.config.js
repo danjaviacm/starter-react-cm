@@ -73,9 +73,7 @@ module.exports = {
         new CopyWebpackPlugin([
 
             { from: PATHS.fonts, to: 'fonts' },
-            { from: PATHS.images, to: 'images' },
-            { from: PATHS.js, to: 'js' },
-            { from: PATHS.djson, to: 'djson' }
+            { from: PATHS.images, to: 'images' }
 
         ], {
             ignore: [
@@ -103,7 +101,7 @@ module.exports = {
 	      	fallback: [],
 	      	settings: ['prefer-online'],
 	      	exclude: ['file.txt'],  // Exclude file.txt and all .js files
-	      	output: 'uj40.appcache'
+	      	output: 'starter-reactjs-cm.appcache'
 	    })
 		// new ExtractTextPlugin( "./[name].css" )
 
