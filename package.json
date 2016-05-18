@@ -40,14 +40,8 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "bootstrap": "^3.3.6",
-    "font-awesome": "^4.5.0",
     "history": "^1.17.0",
-    "is_js": "^0.8.0",
     "jquery": "^1.12.1",
-    "lodash": "^4.1.0",
-    "md5": "^2.0.0",
-    "numeral": "^1.5.3",
     "react": "^0.14.7",
     "react-bootstrap": "^0.28.3",
     "react-bootstrap-select": "^0.14.0",
@@ -65,7 +59,6 @@
     "redux": "^3.1.2",
     "redux-devtools": "^3.0.2",
     "reqwest": "^2.0.5",
-    "store2": "^2.3.2",
-    "woopra": "^0.2.0"
+    "store2": "^2.3.2"
   }
 }
